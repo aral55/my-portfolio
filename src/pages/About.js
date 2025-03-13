@@ -51,7 +51,7 @@ function About() {
       <motion.div className="mt-8" variants={fadeIn} transition={{ delay: 0.6 }}>
         <h2 className="text-2xl font-semibold mb-3 text-gray-700">Skills</h2>
         <div className="flex flex-wrap justify-center gap-4">
-          {["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"].map((skill, index) => (
+          {["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "MySQL", "GitHub", "Docker"].map((skill, index) => (
             <motion.span 
               key={index}
               className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg"
