@@ -1,84 +1,71 @@
-import React, { useState } from "react";
+import React from "react";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
-function Contact () {
-    
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        message: ''
-    });
-    
-const handleChange = (e) => {
-    const {name, value} = e.target;
-    setFormData({
-        ...formData,
-        [name]: value
-    });
-};
+const Contact = () => {
+  return (
+    <section className="flex justify-center items-center min-h-screen bg-gray-100 dark:bg-gray-900 p-6">
+      <div className="bg-white dark:bg-gray-800 shadow-2xl rounded-2xl p-12 w-full max-w-2xl">
+        <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-8 text-center">Contact Me</h2>
+        <form className="space-y-8">
+          <div>
+            <label className="block text-gray-700 dark:text-gray-300 font-medium mb-2 text-lg">Name</label>
+            <input 
+              type="text" 
+              placeholder="Your Name" 
+              className="w-full p-4 border border-gray-300 dark:border-gray-600 rounded-xl bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:outline-none text-lg" 
+            />
+          </div>
+          <div>
+            <label className="block text-gray-700 dark:text-gray-300 font-medium mb-2 text-lg">Email</label>
+            <input 
+              type="email" 
+              placeholder="Your Email" 
+              className="w-full p-4 border border-gray-300 dark:border-gray-600 rounded-xl bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:outline-none text-lg" 
+            />
+          </div>
+          <div>
+            <label className="block text-gray-700 dark:text-gray-300 font-medium mb-2 text-lg">Message</label>
+            <textarea 
+              rows="5" 
+              placeholder="Your Message" 
+              className="w-full p-4 border border-gray-300 dark:border-gray-600 rounded-xl bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:outline-none text-lg" 
+            ></textarea>
+          </div>
+          <button 
+            type="submit" 
+            className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 rounded-xl transition-all shadow-md hover:shadow-lg text-lg"
+          >
+            Send Message
+          </button>
+        </form>
 
-const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Form submitted:", formData);
-};
-    
-    
-    return (
-        <div className="max-w-4xl mx-auto p-10 bg-white shadow-lg rounded-lg">
-            <h2 className="text-3xl font-semibold text-center text-gray-800 mb-6">Contact Me</h2>
-            <form onSubmit={handleSubmit}>
-                {/*Name Input */}
-                <div className="mb-4">
-                    <label htmlFor="name" className="block text-lg font-medium text-gray-700">Name</label>
-                    <input 
-                    type="text"
-                    id="name"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    required
-                    />
-                </div>
-
-                {/*Email Input */}
-                <div className="mb-4">
-                    <label htmlFor="email" className="block text-lg font-medium text-gray-700">Email</label>
-                    <input 
-                    type="email"
-                    id="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    required
-                    />
-                </div>
-
-                {/*Message Texterea*/}
-                <div className="mb-4">
-                    <label htmlFor="message" className="block text-lg font-medium text-gray-700">Message</label>
-                    <textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus
-                    :ring-2 focus:ring-blue-500"
-                    rows="4"
-                    required
-                    />
-                </div>
-
-                {/*Submit Button */}
-                <div className="flex justify-center">
-                    <button type="submit"
-                    className="px-6 py-3 bg-blue-300 text-white text-lg rounded-lg hover:bg-blue-700 focus:outline-none">
-                        Send Message
-                    </button>
-                </div>
-            </form>
+        <div className="mt-8 flex justify-center space-x-6">
+          <a 
+            href="https://www.linkedin.com/in/aral-hudaoglu-794844281/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-blue-600 hover:text-blue-800"
+          >
+            <FaLinkedin size={40} />
+          </a>
+          <a 
+            href="https://github.com/aral55" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-gray-800 hover:text-black"
+          >
+            <FaGithub size={40}  className="text-white hover:text-gray-300"/>
+          </a>
+          <a 
+            href="mailto:aralhudaoglu23@gmail.com" 
+            className="text-red-600 hover:text-red-800"
+          >
+            <FaEnvelope size={40} />
+          </a>
         </div>
-    );
-}
+      </div>
+    </section>
+  );
+};
 
 export default Contact;
