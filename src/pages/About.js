@@ -13,7 +13,7 @@ const scaleIn = {
 
 function About() {
   return (
-    <section className="flex justify-center items-center min-h-screen bg-gray-100 dark:bg-gray-900 p-6">
+<section className="flex justify-center items-center min-h-screen bg-gradient-to-r from-gray-800 to-blue-900 p-6">
       <div className="bg-white dark:bg-gray-800 shadow-2xl rounded-2xl p-12 w-full max-w-3xl text-center">
         {/* Profile Image */}
         <motion.div 

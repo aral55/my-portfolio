@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section className="flex justify-center items-center min-h-screen bg-gray-100 dark:bg-gray-900 p-6">
+<section className="flex justify-center items-center min-h-screen bg-gradient-to-r from-gray-800 to-blue-900 p-6">
       <div className="bg-white dark:bg-gray-800 shadow-2xl rounded-2xl p-12 w-full max-w-2xl">
         <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-8 text-center">Contact Me</h2>
         <form className="space-y-8">
@@ -52,9 +52,9 @@ const Contact = () => {
             href="https://github.com/aral55" 
             target="_blank" 
             rel="noopener noreferrer" 
-            className="text-gray-800 hover:text-black"
+            className="text-gray-800 hover:text-gray-500 bg-white dark:bg-gray-800"
           >
-            <FaGithub size={40}  className="text-white hover:text-gray-300"/>
+            <FaGithub size={40} />
           </a>
           <a 
             href="mailto:aralhudaoglu23@gmail.com" 
