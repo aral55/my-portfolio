@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
+import { image, link } from "motion/react-client";
 
 const Projects = () => {
   const projects = [
@@ -20,6 +21,12 @@ const Projects = () => {
       description: "A Netflix UI clone to practice API integration and Tailwind CSS.",
       link: "https://github.com/aral55/react-netflix",
       image: "/images/netflix.jpeg",
+    },
+    {
+      title: "Travel Agency",
+      description: "A Travel agency website to look at holidays and all inclusive packages. It was a final group project for my boot-camp.",
+      link: "https://github.com/ArhanKonuksal/Travel-Agency-fe",
+      image: "/images/travel-agency.png"
     },
   ];
 
