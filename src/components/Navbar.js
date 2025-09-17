@@ -5,12 +5,12 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white dark:bg-gray-900 shadow-md py-4">
+    <nav className="bg-white dark:bg-gray-900 shadow-md py-6">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center w-full">
           <Link
             to="/"
-            className="text-xl font-bold text-indigo-600 dark:text-indigo-400"
+            className="text-5xl font-bold text-indigo-600 dark:text-indigo-400"
           >
             My Portfolio
           </Link>
@@ -46,7 +46,7 @@ const Navbar = () => {
             </button>
           </div>
 
-          <div className="hidden md:flex space-x-4">
+          <div className="hidden md:flex space-x-6 text-lg md:text-xl font-medium tracking-wide">
             <Link
               to="/about"
               className="text-gray-700 dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-400"
@@ -69,7 +69,7 @@ const Navbar = () => {
         </div>
 
         {isOpen && (
-          <div className="md:hidden mt-4 space-y-2">
+          <div className="md:hidden mt-4 space-y-4">
             <Link
               to="/about"
               className="block text-gray-700 dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-400"

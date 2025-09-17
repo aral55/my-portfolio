@@ -12,7 +12,7 @@ const Projects = () => {
       image: "/images/e-commerce.jpeg",
     },
     {
-      title: "Weather App",
+      title: "NASA search tool",
       description:
         "A NASA search tool website that allows users to search and learn about planets and space.",
       link: "https://github.com/aral55/react-nasa-search-app",
