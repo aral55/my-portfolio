@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/aral55/my-portfolio/static/css/main.faa472f1.css",
-    "main.js": "/aral55/my-portfolio/static/js/main.f30e41ee.js",
-    "static/js/453.438d9e50.chunk.js": "/aral55/my-portfolio/static/js/453.438d9e50.chunk.js",
-    "static/media/travel-agency.png": "/aral55/my-portfolio/static/media/travel-agency.e7db10671800c122f48b.png",
-    "static/media/IMG_3419.JPG": "/aral55/my-portfolio/static/media/IMG_3419.4c88de07ff5c97b109b4.JPG",
-    "static/media/netflix.jpeg": "/aral55/my-portfolio/static/media/netflix.03c53fba336f7414aff2.jpeg",
-    "static/media/IMG_1560.jpeg": "/aral55/my-portfolio/static/media/IMG_1560.30e5819f188d969fd393.jpeg",
-    "static/media/nasa.jpeg": "/aral55/my-portfolio/static/media/nasa.213101822442d5100d09.jpeg",
-    "static/media/e-commerce.jpeg": "/aral55/my-portfolio/static/media/e-commerce.7a874a826dc3f1acf558.jpeg",
-    "index.html": "/aral55/my-portfolio/index.html",
-    "main.faa472f1.css.map": "/aral55/my-portfolio/static/css/main.faa472f1.css.map",
-    "main.f30e41ee.js.map": "/aral55/my-portfolio/static/js/main.f30e41ee.js.map",
-    "453.438d9e50.chunk.js.map": "/aral55/my-portfolio/static/js/453.438d9e50.chunk.js.map"
+    "main.css": "/my-portfolio/static/css/main.faa472f1.css",
+    "main.js": "/my-portfolio/static/js/main.4ac5ac39.js",
+    "static/js/453.438d9e50.chunk.js": "/my-portfolio/static/js/453.438d9e50.chunk.js",
+    "static/media/travel-agency.png": "/my-portfolio/static/media/travel-agency.e7db10671800c122f48b.png",
+    "static/media/IMG_3419.JPG": "/my-portfolio/static/media/IMG_3419.4c88de07ff5c97b109b4.JPG",
+    "static/media/netflix.jpeg": "/my-portfolio/static/media/netflix.03c53fba336f7414aff2.jpeg",
+    "static/media/IMG_1560.jpeg": "/my-portfolio/static/media/IMG_1560.30e5819f188d969fd393.jpeg",
+    "static/media/nasa.jpeg": "/my-portfolio/static/media/nasa.213101822442d5100d09.jpeg",
+    "static/media/e-commerce.jpeg": "/my-portfolio/static/media/e-commerce.7a874a826dc3f1acf558.jpeg",
+    "index.html": "/my-portfolio/index.html",
+    "main.faa472f1.css.map": "/my-portfolio/static/css/main.faa472f1.css.map",
+    "main.4ac5ac39.js.map": "/my-portfolio/static/js/main.4ac5ac39.js.map",
+    "453.438d9e50.chunk.js.map": "/my-portfolio/static/js/453.438d9e50.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.faa472f1.css",
-    "static/js/main.f30e41ee.js"
+    "static/js/main.4ac5ac39.js"
   ]
 }
