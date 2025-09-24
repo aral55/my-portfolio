@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
+import Avatar from "../images/IMG_1560.jpeg"
 
 const textVariant = {
   hidden: { opacity: 0, y: 30 },
@@ -48,12 +49,12 @@ function Home() {
           </motion.div>
 
           <div className="flex justify-center md:justify-start gap-4">
-            <Link
-              to="/projects"
+            <a
+              href="#/projects"
               className="px-6 py-3 bg-indigo-600 text-white font-medium rounded-md shadow hover:scale-105 hover:bg-indigo-700 transition-transform transition-colors duration-300"
             >
               View My Work
-            </Link>
+            </a>
             <Link
               to="/contact"
               className="px-6 py-3 border-2 border-indigo-600 text-indigo-600 font-medium rounded-md hover:bg-indigo-500 transition"
@@ -70,7 +71,7 @@ function Home() {
           animate="visible"
         >
           <img
-            src="/images/IMG_1560.jpeg"
+            src={Avatar}
             alt="Aral Hudaoglu"
             className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover shadow-lg hover:scale-105 transition-transform"
           />

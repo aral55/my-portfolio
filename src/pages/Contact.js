@@ -1,16 +1,39 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+
+  const sendEmail = (e) => {
+e.preventDefault();
+
+emailjs.sendForm(
+  "service_yxhfhxl",
+  "template_y2cr689",
+  e.target,
+  "Dgc4eHB1JDVdrVZPu",
+)
+.then((result) => {
+  console.log(result.text);
+  alert("Message sent successfully!");
+}, (error) => {
+  console.log(error.text);
+  alert("Failed to send message, please try again.");
+});
+e.target.reset();
+
+};
+
   return (
 <section className="flex justify-center items-center min-h-screen bg-gradient-to-r from-gray-800 to-blue-900 p-6">
       <div className="bg-white dark:bg-gray-800 shadow-2xl rounded-2xl p-12 w-full max-w-2xl">
         <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-8 text-center">Contact Me</h2>
-        <form className="space-y-8">
+        <form onSubmit={sendEmail} className="space-y-8">
           <div>
             <label className="block text-gray-700 dark:text-gray-300 font-medium mb-2 text-lg">Name</label>
             <input 
               type="text" 
+              name="from_name"
               placeholder="Your Name" 
               className="w-full p-4 border border-gray-300 dark:border-gray-600 rounded-xl bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:outline-none text-lg" 
             />
@@ -19,6 +42,7 @@ const Contact = () => {
             <label className="block text-gray-700 dark:text-gray-300 font-medium mb-2 text-lg">Email</label>
             <input 
               type="email" 
+              name="from_email"
               placeholder="Your Email" 
               className="w-full p-4 border border-gray-300 dark:border-gray-600 rounded-xl bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:outline-none text-lg" 
             />
@@ -26,6 +50,7 @@ const Contact = () => {
           <div>
             <label className="block text-gray-700 dark:text-gray-300 font-medium mb-2 text-lg">Message</label>
             <textarea 
+            name="message"
               rows="5" 
               placeholder="Your Message" 
               className="w-full p-4 border border-gray-300 dark:border-gray-600 rounded-xl bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:outline-none text-lg" 

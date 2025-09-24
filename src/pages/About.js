@@ -1,4 +1,5 @@
 import React from "react";
+import ProfileImage from "../images/IMG_3419.JPG";
 import { motion } from "framer-motion"; 
 
 const fadeIn = {
@@ -23,7 +24,7 @@ function About() {
           transition={{ type: "spring", stiffness: 200 }}
         >
           <img 
-            src="/IMG_3419.JPG"
+            src={ProfileImage}
             alt="Profile"
             className="w-40 h-40 object-cover rounded-full shadow-lg"
           />
