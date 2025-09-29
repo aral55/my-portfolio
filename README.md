@@ -20,7 +20,7 @@ I designed and developed a portfolio website with smooth navigation, responsive 
 
 
 ## 🌍 Live Demo  
-[Portfolio Website Live Link](https://your-username.github.io/portfolio)  
+[Portfolio Website Live Link](https://aral55.github.io/my-portfolio/)  
 
 ## ✅ Outcome  
 - Fully responsive design for desktop and mobile.  
