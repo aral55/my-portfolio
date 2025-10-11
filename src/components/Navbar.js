@@ -65,10 +65,13 @@ const Navbar = () => {
             >
               Contact
             </Link>
-            <a href="https://www.fiverr.com/users/aral_hudaoglu/manage_gigs"
-            target="_blank"
-            rel="noopener noreferrer"
-            className=" text-gray-700 dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-400">
+
+            <a
+              href="https://www.fiverr.com/users/aral_hudaoglu/manage_gigs"
+              target="_blank"
+              rel="noopener noreferrer"
+              className=" text-gray-700 dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-400"
+            >
               Hire Me
             </a>
           </div>
