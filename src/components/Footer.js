@@ -1,5 +1,6 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaEnvelope, FaFiverr } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { SiFiverr } from "react-icons/si";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -28,11 +29,11 @@ const Footer = () => {
           <FaEnvelope className="text-5xl hover:text-red-500 transition-colors" />
         </a>
         <a
-          href="https://www.fiverr.com/s/7YNqYWE"
+          href="https://www.fiverr.com/aral_hudaoglu/develop-a-custom-web-app-using-react-and-mysql"
           target="_blank"
-          rel="noopner noreferrer"
+          rel="noopener noreferrer"
         >
-          <FaFiverr className="text-5xl hover:text-blue-500 transition-colors" />
+          <SiFiverr className="text-5xl  transform scale-150 ml-2 hover:text-green-500 transition-colors" />
         </a>
       </div>
     </footer>
