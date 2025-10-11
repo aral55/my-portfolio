@@ -67,7 +67,7 @@ const Navbar = () => {
             </Link>
 
             <a
-              href="https://www.fiverr.com/s/YR1QoRz"
+              href="https://www.fiverr.com/aral_hudaoglu/develop-a-custom-web-app-using-react-and-mysql"
               target="_blank"
               rel="noopener noreferrer"
               className=" text-gray-700 dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-400"
@@ -99,7 +99,7 @@ const Navbar = () => {
             </Link>
 
             <a
-              href="https://www.fiverr.com/s/YR1QoRz"
+              href="https://www.fiverr.com/aral_hudaoglu/develop-a-custom-web-app-using-react-and-mysql"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-400"
