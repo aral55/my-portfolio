@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.faa472f1.css",
-    "main.js": "/my-portfolio/static/js/main.65685caa.js",
+    "main.css": "/my-portfolio/static/css/main.79a0ec8a.css",
+    "main.js": "/my-portfolio/static/js/main.f3cd1041.js",
     "static/js/453.438d9e50.chunk.js": "/my-portfolio/static/js/453.438d9e50.chunk.js",
     "static/media/travel-agency.png": "/my-portfolio/static/media/travel-agency.e7db10671800c122f48b.png",
     "static/media/IMG_3419.JPG": "/my-portfolio/static/media/IMG_3419.4c88de07ff5c97b109b4.JPG",
@@ -10,12 +10,12 @@
     "static/media/nasa.jpeg": "/my-portfolio/static/media/nasa.213101822442d5100d09.jpeg",
     "static/media/e-commerce.jpeg": "/my-portfolio/static/media/e-commerce.7a874a826dc3f1acf558.jpeg",
     "index.html": "/my-portfolio/index.html",
-    "main.faa472f1.css.map": "/my-portfolio/static/css/main.faa472f1.css.map",
-    "main.65685caa.js.map": "/my-portfolio/static/js/main.65685caa.js.map",
+    "main.79a0ec8a.css.map": "/my-portfolio/static/css/main.79a0ec8a.css.map",
+    "main.f3cd1041.js.map": "/my-portfolio/static/js/main.f3cd1041.js.map",
     "453.438d9e50.chunk.js.map": "/my-portfolio/static/js/453.438d9e50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.faa472f1.css",
-    "static/js/main.65685caa.js"
+    "static/css/main.79a0ec8a.css",
+    "static/js/main.f3cd1041.js"
   ]
 }
