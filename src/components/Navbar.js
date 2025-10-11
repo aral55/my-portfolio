@@ -67,7 +67,7 @@ const Navbar = () => {
             </Link>
 
             <a
-              href="https://www.fiverr.com/users/aral_hudaoglu/manage_gigs"
+              href="https://www.fiverr.com/s/YR1QoRz"
               target="_blank"
               rel="noopener noreferrer"
               className=" text-gray-700 dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-400"
@@ -99,7 +99,7 @@ const Navbar = () => {
             </Link>
 
             <a
-              href="https://www.fiverr.com/users/aral_hudaoglu/manage_gigs"
+              href="https://www.fiverr.com/s/YR1QoRz"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-400"
